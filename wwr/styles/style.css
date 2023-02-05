@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,9 +9,10 @@ nav a {
     background-color: #396E94;
     color: white;
     display: inline-block;
-    padding: 1em;
+    padding: 35px;
     vertical-align: middle;
     text-decoration: none;
+
 }
 
 nav a:hover {
@@ -29,25 +32,46 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #396E94;
 }
 body {
     background-color: #F4D21E;
+    font-family: 'Montserrat', sans-serif, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: #F4D21E;
 }
 
+.home-tittle {
+    font-family: 'Kalam', cursive, 'Trebuchet MS';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .book, .join {
     background-color: #396E94;
     color: white;
     display: inline-block;
-    padding: 1em;
+    padding: 15px 30px;
     vertical-align: middle;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,19 +79,40 @@ header {
     color: white;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 .msg {
     background-color: #F4D21E;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     background-color: #396E94;
     padding: 0.5em;
     color: white;
+    font-family: 'Kalam', cursive, 'Trebuchet MS';
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #396E94;
-    padding: 1em;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer p {
@@ -84,15 +129,20 @@ footer a {
 footer a:hover {
     color: black;
     background-color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
