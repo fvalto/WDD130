@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a {
     background-color: #396E94;
     color: white;
@@ -36,6 +41,11 @@ main section img {
     box-sizing: border-box;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10 1fr);
+}
+
 #background {
     height: 725px;
     background-color: #396E94;
@@ -54,12 +64,43 @@ h2 {
 
 header {
     background-color: #F4D21E;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+header nav {
+    background-color: #396E94;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .home-tittle {
     font-family: 'Kalam', cursive, 'Trebuchet MS';
     font-size: 2em;
     margin-top: 10px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    color: white;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 
 .book, .join {
@@ -134,10 +175,6 @@ footer a:hover {
 
 .logo {
     width: 80px;
-}
-
-#logo_link {
-    padding-top: 5px
 }
 
 .icon {
