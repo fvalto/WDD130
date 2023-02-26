@@ -39,6 +39,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
@@ -67,10 +68,6 @@ p {
   font-family: 'Montserrat Alternates', sans-serif;
   color: #1e4145;
   padding: 1em;
-}
-
-img {
-  max-width: 100%;
 }
 
 .colors {
