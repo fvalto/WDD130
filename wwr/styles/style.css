@@ -276,3 +276,70 @@ footer a:hover {
         margin-top: 25px;
     }
 }
+
+.faq-body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.table-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.questions {
+    padding: 30px;
+}
+
+#banner-text {
+    text-align: center;
+    margin-top: -65px;
+    padding-bottom: 100px;
+    font-family: 'Kalam', cursive, 'Trebuchet MS';
+    font-size: 2.5em;
+}
+
+.table-contents a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Kalam', cursive, 'Trebuchet MS';
+}
+
+.table-contents a:hover {
+    color: #F4D21E;
+    text-decoration: none;
+}
+
+.table-contents h2 {
+    background-color: #396E94;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Kalam', cursive, 'Trebuchet MS';
+}
+
+.table-contents h3:hover {
+    transform: scale(1.05);
+    transition: transform .8s;
+}
+
+.accordion {
+    background-color: #396E94;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: 35px;
+    font-family: 'Kalam', cursive, 'Trebuchet MS';
+}
+
+.panel {
+    padding-bottom: 30px
+}
