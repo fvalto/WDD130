@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,28 @@
 </head>
 <body>
     <header>
-        <a href="index.html" id="logo">
-            <img src="images/logo.jpg" alt="logo">
+        <a href="index.html">
+            <img id="logo" src="images/logo.jpg" alt="logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
             <a href="faq.html">FAQ</a>
-            <a href="about-me.html">About Me</a>
+            <a href="about-me.html">About me</a>
         </nav>  
     </header>
     <main>
-        <img id="home-banner" src="images/home-banner.jpg" alt="banner">
-        <h1 id="welcome-msg">Claudia Vergara Psychologist, Welcome to my site, as a psychologist I know mental health is the key to be alright in life. If you are struggling with something right know, don't be afraid to ask for help.</h1>
-        <button id="star-button" >Start Now!</button>
+        <div class="index-body">
+            <h1 id="welcome-msg">"As a psychologist I know mental health is the key to be alright in life. <br> If you are struggling with something right know, don't be afraid to ask for help."</h1>
+            <a id="start-button" href="about-me.html">Start now!</a>
+            <img id="home-banner" src="images/home-banner.jpg" alt="banner">
+        </div>
     </main>
     <footer>
-        <p>Claudia Vergara Psychologist &copy; 2023 - Fabián Valdés</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="about-me.html">Contact Us</a></p>
+        <div class="info">
+            <p>Claudia Vergara Psychologist &copy; 2023 - Fabián Valdés</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="about-me.html">Contact Us</a></p>
+        </div>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
