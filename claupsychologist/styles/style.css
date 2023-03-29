@@ -133,7 +133,7 @@ img {
 }
 
 #banner-text {
-    margin-top: -300px;
+    margin-top: -25%;
     padding-bottom: 300px;
     text-align: center;
     color: black;
@@ -180,6 +180,30 @@ img {
     background-color: #e0e0e0;
 }
 
+.about-me-main {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+
+#portrait {
+    width: 85%;
+    align-self: center;
+    margin: auto;
+}
+
+#portrait img {
+    border-radius: 40px;
+    border: solid 7px #ebcdc3;
+}
+
+#presentation {
+    text-align: justify;
+    padding-right: 40px;
+    margin: 30px;
+    font-size: 1.2em;;
+}
 
 /* COMPONENT FROM W3SCHOLS */
 
@@ -213,4 +237,26 @@ img {
   @media screen and (max-height: 450px) {
     .table-contents {padding-top: 15px;}
     .table-contents a {font-size: 18px;}
+  }
+
+  @media screen and (max-width: 964px) {
+    .about-me-main {
+        display: block;
+        margin-top: 50px;
+    }
+
+    #presentation {
+        padding-right: 5px;
+        text-align: justify;
+        font-size: 1.2em;;
+    }
+  }
+
+  @media screen and (max-width: 830px) {
+
+    #banner-text {
+        margin-top: -35%;
+        padding-bottom: 300px;
+        font-size: 40px;
+    }
   }
